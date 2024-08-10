@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie info</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: orange;
+            color: white;
+
+
+        }
+
+        p:nth-child(2)::before {
+            content: 'Title:';
+            margin-right: 10px;
+
+        }
+
+        p:nth-child(3)::before {
+            content: 'Genre:';
+            margin-right: 10px;
+
+        }
+
+        p:nth-child(4)::before {
+            content: 'Rating:';
+            margin-right: 10px;
+
+        }
+
+        p:nth-child(5)::before {
+            content: 'Runtime:';
+            margin-right: 10px;
+
+        }
+
+        p:nth-child(6)::before {
+            content: 'Writers:';
+            margin-right: 10px;
+
+        }
+
+        p:nth-child(7)::before {
+            content: 'Director:';
+            margin-right: 10px;
+
+        }
+
+        p:nth-child(8)::before {
+            content: 'Language:';
+            margin-right: 10px;
+
+
+        }
+
+
+        .container-details {
+            background-color: blue;
+            width: 50%;
+            margin: auto;
+            padding: 5px;
+            border: 12px solid white;
+            line-height: 2;
+            border-radius: 2rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-details">
+        <h1>Details</h1>
+    </div>
+    <script src="detail.js">
+    </script>
+</body>
+
+</html>
